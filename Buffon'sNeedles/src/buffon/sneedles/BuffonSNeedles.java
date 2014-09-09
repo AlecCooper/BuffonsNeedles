@@ -65,7 +65,7 @@ public class BuffonSNeedles {
         //Random rand = new Random();
         //int randomNum = rand.nextInt((max - min) + 1) + min;
         //return randomNum;
-        return (Math.random() * max) + min;
+        return (Math.random() * (max - min)) + min;
         
     }
 }
